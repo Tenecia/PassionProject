@@ -1,0 +1,82 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+
+<div class="jumbotron">
+    @*<h1>Tiny B&B Cleveland</h1>*@
+    <p  style= "color:white" class ="lead" > Your Tiny Home away From Home  </p>
+    <p><a href="http://asp.net" class="btn btn-primary btn-lg"> Sign up &raquo;</a></p>
+</div>
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class=""></li>
+        <li data-target="#myCarousel" data-slide-to="1" class=""></li>
+        <li data-target="#myCarousel" data-slide-to="2" class="active"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="item">
+            <img class="first-slide" src="http://www.shareable.net/sites/default/files/Portland.png" alt="First slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1> Tiny B&B Travel </h1>
+                <p> <font face="Times New Roman"> </font> Embrace your tiny B&B travel experience. Travel more simply and efficently leaving more time for doing the things 
+                you love, like traveling.  </p>
+              <p><a class="btn btn-lg btn-primary" href="/Account/Register" role="button">Sign up today</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+            <img class="second-slide" src="http://2.bp.blogspot.com/-ACOFJbmmBhg/VZScXCY0w1I/AAAAAAAAA-M/nBHU3ZQuGIM/s1600/Nevits%2Bhouse.jpg" alt=" second slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1> About Tiny B&B</h1>
+              <p>Learn how Tiny B&B Cleveland came to be</p>
+              <p><a class="btn btn-lg btn-primary" href="/Home/About" role="button">Learn More</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item active">
+            <img class="third-slide" src="http://tinyhousetalk.com/wp-content/uploads/ESCAPE-Traveler-001-600x396.jpg" alt="Third slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1> Amazing Tiny B&B</h1>
+              <p>Tiny living at it's best. See pictures of unusual Tiny houses. This could be your next B&B experience</p>
+              <p><a class="btn btn-lg btn-primary" href="/Home/BrowseGallery" role="button">Browse gallery</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>Become a Host</h2>
+        <p>
+            Earn extra money while renting out your tiny space to travelers. Sharing your tiny space opens up a whole new world of living 
+            smaller. Share your love for tiny living through tiny B&B Cleveland. 
+        </p>
+        <p><a class="btn btn-default" href="/Home/BecomeAHost">Learn more &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Tiny Perks</h2>
+        <p>Learn more about the benefits of traveling and staying in a tiny home awayfrom home. </p>
+        <p><a class="btn btn-default" href="/Home/TinyPerks">Learn more &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Explore </h2> 
+        <p> Looking for things to do while enjoying your getaway? See what's happening in Cleveland area
+        near you!</p>
+        <p><a class="btn btn-default" href="/Home/Explore">Learn more &raquo;</a></p>
+    </div>
+</div>
